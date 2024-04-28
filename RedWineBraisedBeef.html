@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Let's Eat</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+        <!-- normalize stylesheet -->
+        <link rel="stylesheet" href="./css/normalize.css" />
+        <!-- main stylesheet -->
+        <link rel="stylesheet" href="./css/dinner.css" />
+        <!-- font awesome stylesheet-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- Header section of the page with search bar -->
+        <header class="header">
+            <div class="header-center">
+                <div class="search-bar">
+                    <form action="./search.html">
+                        <input type="text" placeholder="Search..." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="header-header">
+                    <div class="header-logo">
+                        <img src="./assets/LetsEatLogo.png" alt="let's eat logo" usemap="#workmap">
+                        <map name="workmap">
+                          <area shape="rect" coords="1, 2, 140, 140" alt="logo" href="index.html">
+                        </map>
+                        <h1>Let's Eat, I'll Cook</h1>
+                    </div>
+                </div>
+            </div>           
+        </header>
+
+        <!-- Navigation Menu with dropdown menus -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Breakfast</a>
+                    <div class="dropdown-content">
+                        <a href="./lemonPoppyseedPancakes.html">Lemon Poppyseed Pancankes</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Lunch</a>
+                    <div class="dropdown-content">
+                      <a href="./PimentoCheeseBLT.html">Pimento Cheese BLT</a>
+                    </div>
+                  </li>
+                <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">Dinner</a>
+                  <div class="dropdown-content">
+                    <a href="./RedWineBraisedBeef.html">Red Wine Braised Beef</a>
+                  </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- main section of the webpage with images and recipes -->
+        <main class="page">
+            <header class="main-image">
+              <div class="main-image-container">
+                <div class="main-image-text">
+                  <h1>grab life by the fork</h1>
+                  <h4>y'all come back now</h4>
+                </div>
+              </div>
+            </header>
+            <section class="dinner-recipe-header-container">
+              <div class="dinner-recipe-header">
+                <h2>Red Wine Braised Beef</h2>
+              </div>
+            </section>
+            <section class="dinner-recipe-container">
+              <div class="dinner-recipe">
+                <img src="./assets/Red-Wine-Braised-Beef-Skinny.jpeg" alt="red wine braised beef">
+              </div>
+              <div class="dinner-ingredients-header">
+                <h3>Ingredients</h3>
+              </div>
+              <div class="dinner-ingredients">
+                <ul>
+                  <li class="food-items">Bread</li>
+                  <li class="food-items">Butter</li>
+                  <li class="food-items">Pimento Cheese</li>
+                  <li class="food-items">Bacon</li>
+                  <li class="food-items">Lettuce</li>
+                  <li class="food-items">Tomato</li>
+                </ul>
+              </div>
+              <div class="dinner-recipe-procedure-header">
+                <h3>Procedure</h3>
+              </div>
+              <div>
+                <p class="dinner-recipe-procedure">The elephant played guitar by the window while gazing at the mountain. A clock by the river ticked loudly,
+                   as a chair floated past. Books and lamps lay scattered on the floor. Sunshine streamed in through the window,
+                   illuminating a pillow adorned with butterflies. Beyond, the ocean stretched endlessly, its waves crashing against
+                   the shore. Trees swayed gently in the breeze, and a cat napped peacefully on the windowsill. Lemons and telescopes 
+                   adorned the castle walls, and fluffy clouds drifted lazily across the sky. A rainbow arched overhead, and keys 
+                   jingled in the distance. Hats and bicycles cluttered the hallway, and stars twinkled in the night sky. Cameras flashed,
+                   capturing memories, while pizzas cooked in the oven. Tigers prowled, apples fell, and horses galloped through fields. 
+                   Robots danced, dragons flew, and soccer balls soared through the air. Gardens bloomed, and ships sailed across the horizon. 
+                   Unicorns pranced, and coffee brewed, filling the air with its rich aroma. Snowflakes fell softly to the ground, covering the 
+                   landscape in a blanket of white. Maps guided the way, leading to hidden islands and secret treasures. Dolphins leaped, and 
+                   laptops hummed with activity. Jellyfish glowed in the depths of the ocean, and telescopes searched the night sky.</p>
+              </div>
+            </section>
+        </main>
+    </body>
+</html>

@@ -142,7 +142,7 @@ li:last-child {
     position: relative;
     align-content: center;
     margin-bottom: 2rem;
-    background: url('../assets/dinner-spread.jpeg') center/cover no-repeat;
+    background: url('dinner-spread.jpeg') center/cover no-repeat;
     border-radius: 0.25rem;
 }
 .main-image-container {

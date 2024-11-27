@@ -187,6 +187,8 @@ li:last-child {
 .recipes-container {
     text-decoration: none;
     display: grid;
+    /* trying align-content to center recipes in grid */
+    align-content: center;
     margin-left: auto;
     margin-right: auto;
     width: 80%;

@@ -72,8 +72,7 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* increase width from 80% to 100% */
-    max-width: 100%;
+    max-width: 80%;
     padding-left: 50px;
     list-style-type: none;
     padding: 0.01rem;
@@ -190,8 +189,7 @@ li:last-child {
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    /* increase width from 80% to 100% */
-    width: 100%;
+    width: 80%;
     grid-template-columns: 200px 1fr;
     padding-top: 40px;
     gap: 1rem;
@@ -229,6 +227,18 @@ li:last-child {
     letter-spacing: 1px;
     font-size: 0.85rem;
     text-decoration: none;
+}
+
+/* NEED TO CENTER WITH OTHER CONTNENT */
+.footer {
+    background-color: rgb(62,135,237);
+    clear: both;
+}
+
+.footer p {
+    text-align: left;
+    color: white;
+    padding: 1em;
 }
 
 

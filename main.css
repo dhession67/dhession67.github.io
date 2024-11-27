@@ -204,7 +204,7 @@ li:last-child {
     text-decoration: none;
     text-align: center;
     display: grid;
-    /* gap: 2rem 133px; */
+    gap: 2rem 133px; 
     padding-bottom: 3rem;
     grid-template-columns: auto auto auto;
     

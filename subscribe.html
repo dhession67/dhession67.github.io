@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Let's Eat</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <!-- normalize stylesheet -->
+        <link rel="stylesheet" href="normalize.css" />
+        <!-- subscribe stylesheet -->
+        <link rel="stylesheet" href="subscribe.css" />
+        <!-- font awesome stylesheet-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- Header section with search bar -->
+        <header class="header">
+            <div class="header-center">
+                <div class="search-bar">
+                    <form action="search.html">
+                        <input type="text" placeholder="Search..." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="header-header">
+                    <div class="header-logo">
+                        <img src="LetsEatLogo.png" alt="let's eat logo" usemap="#workmap">
+                        <map name="workmap">
+                          <area shape="rect" coords="1, 2, 140, 140" alt="logo" href="index.html">
+                        </map>
+                        <h1>Let's Eat, We'll Cook</h1>
+                    </div>
+                </div>
+            </div>           
+        </header>
+
+        <!-- Navigation Menu with dropdown menus -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Breakfast</a>
+                    <div class="dropdown-content">
+                        <a href="lemonPoppyseedPancakes.html">Lemon Poppyseed Pancankes</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Lunch</a>
+                    <div class="dropdown-content">
+                      <a href="PimentoCheeseBLT.html">Pimento Cheese BLT</a>
+                    </div>
+                  </li>
+                <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">Dinner</a>
+                  <div class="dropdown-content">
+                    <a href="RedWineBraisedBeef.html">Red Wine Braised Beef</a>
+                  </div>
+                </li>
+                <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">Subscribe</a>
+                  <div class="dropdown-content">
+                    <a href="Subscribe.html">Join Our Email List!</a>
+                  </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- main section of the webpage with images and recipes -->
+        <main class="page">
+            <header class="main-image">
+              <div class="main-image-container">
+                <div class="main-image-text">
+                  <h1>Dig in to Some Delicious Recipes</h1>
+                  <h4>There's enough to go around!</h4>
+                </div>
+              </div>
+            </header>
+            <section class="subscribe-header-container">
+                <div class="subscribe-header">
+                    <h2>Get Notified About New and Exciting Recipes</h2>
+                    <h3>Join Our Culinary Email List Today!</h3>
+                    <!--* * * PUT FORM HERE * * *-->
+                    <p>* * * PUT FORM HERE * * * </p>
+                </div>
+            </section>
+            <section class="favorite-recipes-header-container">
+                <div class="favorite-recipes-header">
+                    <h2>A Few of Our Favorites...</h2>
+                </div>
+            </section>
+            <section class="recipes-container">
+                <div class="recipes-list">
+                    <!-- single recipe -->
+                    <a href="lemonPoppyseedPancakes.html" class="recipe">
+                        <img
+                          src="Lemon-Poppy-Seed-Pancake.jpeg"
+                          class="img recipe-img"
+                          alt=""
+                        />
+                        <h5>Lemon Poppyseed Pancakes</h5>
+                        <p>Prep : 15min | Cook : 5min</p>
+                      </a>
+                      <!-- end of single recipe -->
+                    <!-- single recipe -->
+                    <a href="PimentoCheeseBLT.html" class="recipe">
+                      <img
+                        src="pimento-cheese-blt-sandwich.jpeg"
+                        class="img recipe-img"
+                        alt=""
+                      />
+                      <h5>Pimento Cheese BLT</h5>
+                      <p>Prep : 15min | Cook : 5min</p>
+                    </a>
+                    <!-- end of single recipe -->
+                    <!-- single recipe -->
+                    <a href="RedWineBraisedBeef.html" class="recipe">
+                      <img
+                        src="Red-Wine-Braised-Beef.jpeg"
+                        class="img recipe-img"
+                        alt=""
+                      />
+                      <h5>Red Wine Braised Beef</h5>
+                      <p>Prep : 15min | Cook : 5min</p>
+                    </a>
+                    <!-- end of single recipe -->
+                </div>                   
+            </section>
+        </main>
+    </body>
+    <footer class ="footer">
+      <p>&copy; Copyright 2024 David Hession, Haley Mason, and Robert Estes</p>
+    </footer>
+</html>

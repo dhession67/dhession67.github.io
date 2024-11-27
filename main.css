@@ -82,6 +82,8 @@ ul {
   
 li {
     float: left;
+    /* change width of list elements */
+    max-width: 80%;
     padding-left: 100px;
     padding-right: 100px;
     border-right: 1px solid #bbb;

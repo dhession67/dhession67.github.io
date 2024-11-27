@@ -72,7 +72,8 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /*max-width: 80%;*/
+    /* increase width from 80% to 100% */
+    max-width: 100%;
     padding-left: 50px;
     list-style-type: none;
     padding: 0.01rem;
@@ -189,7 +190,8 @@ li:last-child {
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    /*width: 80%;*/
+    /* increase width from 80% to 100% */
+    width: 100%;
     grid-template-columns: 200px 1fr;
     padding-top: 40px;
     gap: 1rem;

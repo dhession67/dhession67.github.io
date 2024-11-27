@@ -192,11 +192,12 @@ li:last-child {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    /* grid-template-columns: 200px 1fr; 
+    /* remove --> grid-template-columns: 200px 1fr; 
     change to: */
     grid-template-columns: auto auto auto; 
     padding-top: 40px;
-    gap: 1rem;
+    /* remove --> gap: 1rem; 
+    to center columns within container*/
   }
   
 .recipes-list {

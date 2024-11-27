@@ -203,8 +203,8 @@ li:last-child {
 .recipes-list {
     text-decoration: none;
     text-align: center;
-    /* display: grid;
-    gap: 2rem 133px; */
+    display: grid;
+    /* gap: 2rem 133px; */
     padding-bottom: 3rem;
     /* grid-template-columns: 1fr 1fr 1fr; */
     

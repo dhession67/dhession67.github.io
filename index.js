@@ -72,3 +72,23 @@ imageElements.forEach((imageElement) => {
         imageElement.style.backgroundImage = `url('${imagePairs[pageIndex].original}')`;
     });
 });
+
+// Beginning of Form Section
+let submitButton = document.getElementById("submitButton");
+let pwd = document.getElementById("pwd");
+let pwd2 = document.getElementById("pwd2");
+
+submitButton.addEventListener("click", function() {
+      // Assigning pwd and pwd2 values to variables to use for comparison.
+      let pwdVal = pwd.value;
+      let pwd2Val = pwd2.value;
+
+   if (pwd.validity.patternMismatch) {
+      pwd.setCustomValidity("Your password must be at least 8 characters with one letter and one number")
+   } else if (pwdVal !== pwd2Val) {
+      pwd.setCustomValidity("Your passwords must match")
+   } else {
+      pwd.setCustomValidity("");
+   }
+})
+// End of form section.

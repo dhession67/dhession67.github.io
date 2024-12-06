@@ -144,7 +144,11 @@ li:last-child {
     margin-bottom: 2rem;
     background: url('dinner-spread.jpeg') center/cover no-repeat;
     border-radius: 0.25rem;
+     transition: background; 
+    background-size: cover; 
+    background-position: center;
 }
+
 .main-image-container {
     position: absolute;
     top: 0;

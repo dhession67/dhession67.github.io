@@ -48,3 +48,27 @@ if (image3) {
 }
 
 });
+
+const imagePairs = [
+    { original: 'tableSpread.jpeg', hover: 'tableSpread2.jpeg' },
+    { original: 'breakfast-spread.jpeg', hover: 'breakfast-spread2.jpeg' },
+    { original: 'lunch-spread.jpeg', hover: 'lunch-spread2.jpg' },
+    { original: 'dinner-spread.jpeg', hover: 'dinner-spread2.jpeg' },
+];
+
+const imageElements = document.querySelectorAll('.main-image');
+
+imageElements.forEach((imageElement) => {
+    const page = imageElement.getAttribute('data-page');
+    const pageIndex = page - 1;
+
+    imageElement.style.backgroundImage = `url('${imagePairs[pageIndex].original}')`;
+
+    imageElement.addEventListener('mouseover', () => {
+        imageElement.style.backgroundImage = `url('${imagePairs[pageIndex].hover}')`;
+    });
+
+    imageElement.addEventListener('mouseout', () => {
+        imageElement.style.backgroundImage = `url('${imagePairs[pageIndex].original}')`;
+    });
+});

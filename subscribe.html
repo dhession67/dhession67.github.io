@@ -84,6 +84,25 @@
                     <h3>Join Our Culinary Email List Today!</h3>
                     <!--* * * PUT FORM HERE * * *-->
                     <p>* * * PUT FORM HERE * * * </p>
+                    <form id="signup" name="signup" method="get" action="formsubmit.html">
+                      <fieldset>
+                         <legend>Enter your Account Information</legend>
+                         <label for="user">Username</label>
+                         <input type="text" id="user" name="user" required />
+             
+                         <label for="email">Email</label>
+                         <input type="email" id="email" name="email" required />
+             
+                         <label for="pwd">Password</label>
+                         <input type="password" id="pwd" name="pwd" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"/>
+             
+                         <label for="confirm">Confirm Password</label>
+                         <input type="password" id="pwd2" name="pwd2" required  />            
+                         
+                         <input type="submit" id="submitButton" value="Save" />
+                      </fieldset>
+                   </form>
+                   <!-- End of Form section -->
                 </div>
             </section>
             <section class="favorite-recipes-header-container">

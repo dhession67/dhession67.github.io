@@ -84,7 +84,7 @@ submitButton.addEventListener("click", function() {
       let pwd2Val = pwd2.value;
 
    if (pwd.validity.patternMismatch) {
-      pwd.setCustomValidity("Your password must be at least 8 characters with one letter and one number")
+      pwd.setCustomValidity("Your password must be at least 8 characters with one letter, one number, and one special character")
    } else if (pwdVal !== pwd2Val) {
       pwd.setCustomValidity("Your passwords must match")
    } else {

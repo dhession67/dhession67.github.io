@@ -252,6 +252,18 @@ fieldset {
     background-color: #b8e06c;
  }
 
+.account {
+    margin: 0 auto; /* Center the table horizontally */
+    text-align: left; /* Align text inside table to center */
+    border-collapse: collapse; /* collapse table borders */
+  }
+  
+  .account th, .account td {
+    border: 1px solid #ddd; /* add borders */
+    padding: 8px; /* add padding for better spacing */
+  }
+  
+
 /* ^ Subscribe Form Formating ^ */
 
 .favorite-recipes-header-container {
